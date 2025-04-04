@@ -33,6 +33,16 @@ DocGPT Assistant is an intelligent, multi-PDF document question-answering tool p
 
 ---
 
+### ✨ Future Enhancements
+Chat with memory + conversation context
+
+OCR support for scanned PDFs
+
+Admin dashboard for monitoring queries
+
+Support for DOCX/CSV ingestion
+
+
 ## 🛠️ Setup Instructions
 
 ### 1. Clone the Repository
@@ -40,3 +50,19 @@ DocGPT Assistant is an intelligent, multi-PDF document question-answering tool p
 ```bash
 git clone https://github.com/raoswarup/docgpt-assistant.git
 cd docgpt-assistant
+
+2. Create and Activate Virtual Environment
+python -m venv venv
+source venv/bin/activate   # On Windows: venv\Scripts\activate
+
+3. Install Dependencies
+pip install -r requirements.txt
+
+4. Create .env File
+Create a .env file in the root directory with the following:
+OPENAI_API_KEY=your-openai-api-key
+APP_PASSWORD=your-app-password  # Optional (for password protection)
+
+5. Run the App
+streamlit run app.py
+
