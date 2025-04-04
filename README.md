@@ -45,9 +45,10 @@ Support for DOCX/CSV ingestion
 
 ## 🛠️ Setup Instructions
 
-### 1. Clone the Repository
+
 
 ```bash
+### 1. Clone the Repository
 git clone https://github.com/raoswarup/docgpt-assistant.git
 cd docgpt-assistant
 
