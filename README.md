@@ -38,5 +38,5 @@ DocGPT Assistant is an intelligent, multi-PDF document question-answering tool p
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/docgpt-assistant.git
+git clone https://github.com/raoswarup/docgpt-assistant.git
 cd docgpt-assistant
