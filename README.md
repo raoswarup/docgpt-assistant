@@ -46,24 +46,36 @@ Support for DOCX/CSV ingestion
 ## 🛠️ Setup Instructions
 
 
-
+## 1. Clone the Repository
 ```bash
-1. Clone the Repository
+
 git clone https://github.com/raoswarup/docgpt-assistant.git
 cd docgpt-assistant
 
-2. Create and Activate Virtual Environment
+```
+
+## 2. Create and Activate Virtual Environment
+```bash
 python -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
+```
 
-3. Install Dependencies
+## 3. Install Dependencies
+```bash
 pip install -r requirements.txt
+```
 
-4. Create .env File
+## 4. Create .env File
 Create a .env file in the root directory with the following:
 OPENAI_API_KEY=your-openai-api-key
 APP_PASSWORD=your-app-password  # Optional (for password protection)
 
-5. Run the App
+## 5. Run the App
+```bash
 streamlit run app.py
+````
+##🤝 Contributing
+PRs and ideas are welcome! Feel free to fork and enhance the app.
 
+## 📄 License
+This project is licensed under the MIT License.
